@@ -1,5 +1,6 @@
-compile = "make -s"
+compile = ["make", "-s"]
 run = "./main"
+entrypoint = "main.c"
 hidden = ["main", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
 
 [nix]
